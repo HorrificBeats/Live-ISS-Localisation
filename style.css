@@ -1,0 +1,83 @@
+body {
+  background: #292929;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  margin-top: 1%;
+  width: 100%;
+  position: absolute;
+  z-index: 501;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5px;
+}
+
+header h1, header p, header span {
+  margin: 0;
+}
+
+header p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+header span {
+  color: #ff6d6d;
+}
+
+header #frostedCard {
+  background: rgba(222, 222, 222, 0.256);
+  background-clip: inherit;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 1%;
+  margin-top: 15px;
+}
+
+#issMap {
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+  margin: 15px;
+  border-radius: 25px;
+  position: relative;
+  z-index: 500;
+}
+
+#issMap .leaflet-control-zoom,
+#issMap .leaflet-control-zoom-in,
+#issMap .leaflet-control-zoom-out {
+  border-radius: 5px;
+}
+
+#issMap .leaflet-control-attribution {
+  margin: 0 10px 10px 0;
+  border-radius: 15px;
+}
+
+#coordonatesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
